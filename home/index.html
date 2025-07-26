@@ -2,10 +2,12 @@
 <html lang="en">
 
 <head>
+
     <title>THUÊ XE MÁY HÙNG VŨ</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="images/logo.png">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/custom.css">
     <link rel="stylesheet" type="text/css" href="css/footer.css">
@@ -15,13 +17,45 @@
 
 <body style="background-color: aliceblue">
     <!-- Navbar -->
-    <nav class="navbar navbar-dark bg-light">
+    <!-- <nav class="navbar navbar-dark bg-light">
         <div class="container text-center">
             <a class="navbar-brand d-flex align-items-center justify-content-center w-100">
                 <img src="images/logo.png" alt="Logo" class="d-inline-block align-text-top rounded-circle"
                     style="max-width: 80px; height: auto;">
                 <span class="ms-2 text-dark fw-bold">CHO THUÊ XE MÁY HÙNG VŨ</span>
             </a>
+        </div>
+    </nav> -->
+    <nav class="navbar navbar-expand-md border-bottom fixed-top bg-light fw-medium">
+        <div class="container-fluid">
+            <a class="navbar-brand d-flex align-items-center" href="#gioi-thieu">
+                <img src="images/logo.png" alt="Logo" class="d-inline-block align-text-top rounded-circle me-2"
+                    style="max-width: 50px; height: auto;">
+                CHO THUÊ XE HÙNG VŨ
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#gioi-thieu">Giới thiệu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#bang-gia">Bảng giá</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#thu-tuc">Thủ tục cần thiết</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#hinh-anh">Hình ảnh tiêu biểu</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#lien-he">Thông tin liên hệ</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
 
@@ -75,15 +109,15 @@
             </div>
         </div>
 
-        <hr class="my-4 mx-auto w-75 border border-secondary">
+        <hr class="my-4 mx-auto w-75 border border-secondary" id="gioi-thieu">
 
         <div class="container px-4">
             <div class="row d-flex">
                 <div class="row row-cols-1 row-cols-md-2 align-items-md-center py-5">
                     <div class="col d-flex flex-column align-items-start gap-2">
-                        <h2 class="fw-semibold text-body-emphasis">Dịch vụ cho thuê xe máy Anh Vũ
+                        <h2 class="fw-semibold text-body-emphasis">Dịch vụ cho thuê xe máy HÙNG Vũ
                         </h2>
-                        <p class="text-body-secondary">Dịch vụ cho thuê xe máy Anh Vũ là sự lựa chọn hàng đầu dành cho
+                        <p class="text-body-secondary">Dịch vụ cho thuê xe máy HÙNG Vũ là sự lựa chọn hàng đầu dành cho
                             khách hàng muốn trải nghiệm sự tiện lợi, an toàn và chất lượng. Chúng tôi cung cấp đa dạng
                             các loại xe máy từ phổ thông đến cao cấp, phù hợp với mọi nhu cầu di chuyển, từ đi lại hàng
                             ngày đến các chuyến du lịch dài ngày.
@@ -153,7 +187,7 @@
             </div>
         </div>
 
-        <hr class="my-4 mx-auto w-75 border border-secondary">
+        <hr class="my-4 mx-auto w-75 border border-secondary" id="bang-gia">
 
         <div class="container px-4">
             <h2 class="fw-semibold text-body-emphasis text-center py-3">Bảng giá các loại xe cho thuê</h2>
@@ -280,9 +314,7 @@
             </div>
         </div>
 
-        <hr class="my-4 mx-auto w-75 border border-secondary">
-
-        <hr class="my-4 mx-auto w-75 border border-secondary">
+        <hr class="my-4 mx-auto w-75 border border-secondary" id="thu-tuc">
 
         <div class="container px-4 my-5">
             <h2 class="fw-semibold text-body-emphasis text-center py-3">Những thủ tục cần thiết khi thuê xe máy</h2>
@@ -321,185 +353,175 @@
                 Nếu có thắc mắc về thủ tục, vui lòng liên hệ trực tiếp để được tư vấn chi tiết và hỗ trợ
                 nhanh chóng!
             </p>
+        </div>
+        <hr class="my-4 mx-auto w-75 border border-secondary" id="hinh-anh">
 
-            <hr class="my-4 mx-auto w-75 border border-secondary">
-
-            <div class="container px-4 my-5">
-                <h2 class="fw-semibold text-body-emphasis text-center py-3">Hình ảnh thuê xe tiêu biểu</h2>
-                <div id="carouselGallery" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <div class="row g-4 justify-content-center">
-                                <div class="col-6 col-md-6">
-                                    <img src="images/t_01.jpg" class="img-fluid rounded mb-3"
-                                        alt="Khách hàng thuê xe 1">
-                                </div>
-                                <div class="col-6 col-md-6">
-                                    <img src="images/t_02.jpg" class="img-fluid rounded mb-3"
-                                        alt="Khách hàng thuê xe 2">
-                                </div>
+        <div class="container px-4 my-5">
+            <h2 class="fw-semibold text-body-emphasis text-center py-3">Hình ảnh thuê xe tiêu biểu</h2>
+            <div id="carouselGallery" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row g-4 justify-content-center">
+                            <div class="col-6 col-md-6">
+                                <img src="images/t_01.jpg" class="img-fluid rounded mb-3" alt="Khách hàng thuê xe 1">
                             </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="row g-4 justify-content-center">
-                                <div class="col-6 col-md-6">
-                                    <img src="images/t_03.jpg" class="img-fluid rounded mb-3"
-                                        alt="Khách hàng thuê xe 2">
-                                </div>
-                                <div class="col-6 col-md-6">
-                                    <img src="images/t_04.jpg" class="img-fluid rounded mb-3"
-                                        alt="Khách hàng thuê xe 3">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="row g-4 justify-content-center">
-                                <div class="col-6 col-md-6">
-                                    <img src="images/t_05.jpg" class="img-fluid rounded mb-3"
-                                        alt="Khách hàng thuê xe 3">
-                                </div>
-                                <div class="col-6 col-md-6">
-                                    <img src="images/t_06.jpg" class="img-fluid rounded mb-3"
-                                        alt="Khách hàng thuê xe 4">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="row g-4 justify-content-center">
-                                <div class="col-6 col-md-6">
-                                    <img src="images/t_07.jpg" class="img-fluid rounded mb-3"
-                                        alt="Khách hàng thuê xe 4">
-                                </div>
-                                <div class="col-6 col-md-6">
-                                    <img src="images/t_08.jpg" class="img-fluid rounded mb-3"
-                                        alt="Khách hàng thuê xe 5">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="row g-4 justify-content-center">
-                                <div class="col-6 col-md-6">
-                                    <img src="images/t_09.jpg" class="img-fluid rounded mb-3"
-                                        alt="Khách hàng thuê xe 5">
-                                </div>
-                                <div class="col-6 col-md-6">
-                                    <img src="images/t_10.jpg" class="img-fluid rounded mb-3"
-                                        alt="Khách hàng thuê xe 6">
-                                </div>
+                            <div class="col-6 col-md-6">
+                                <img src="images/t_02.jpg" class="img-fluid rounded mb-3" alt="Khách hàng thuê xe 2">
                             </div>
                         </div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselGallery"
-                        data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselGallery"
-                        data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
+                    <div class="carousel-item">
+                        <div class="row g-4 justify-content-center">
+                            <div class="col-6 col-md-6">
+                                <img src="images/t_03.jpg" class="img-fluid rounded mb-3" alt="Khách hàng thuê xe 2">
+                            </div>
+                            <div class="col-6 col-md-6">
+                                <img src="images/t_04.jpg" class="img-fluid rounded mb-3" alt="Khách hàng thuê xe 3">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row g-4 justify-content-center">
+                            <div class="col-6 col-md-6">
+                                <img src="images/t_05.jpg" class="img-fluid rounded mb-3" alt="Khách hàng thuê xe 3">
+                            </div>
+                            <div class="col-6 col-md-6">
+                                <img src="images/t_06.jpg" class="img-fluid rounded mb-3" alt="Khách hàng thuê xe 4">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row g-4 justify-content-center">
+                            <div class="col-6 col-md-6">
+                                <img src="images/t_07.jpg" class="img-fluid rounded mb-3" alt="Khách hàng thuê xe 4">
+                            </div>
+                            <div class="col-6 col-md-6">
+                                <img src="images/t_08.jpg" class="img-fluid rounded mb-3" alt="Khách hàng thuê xe 5">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row g-4 justify-content-center">
+                            <div class="col-6 col-md-6">
+                                <img src="images/t_09.jpg" class="img-fluid rounded mb-3" alt="Khách hàng thuê xe 5">
+                            </div>
+                            <div class="col-6 col-md-6">
+                                <img src="images/t_10.jpg" class="img-fluid rounded mb-3" alt="Khách hàng thuê xe 6">
+                            </div>
+                        </div>
+                    </div>
                 </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselGallery"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselGallery"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
+        </div>
 
-            <hr class="my-4 mx-auto w-75 border border-secondary">
+        <hr class="my-4 mx-auto w-75 border border-secondary" id="lien-he">
 
-            <div class="container px-4 my-5">
-                <div class="row justify-content-center align-items-center">
-                    <h2 class="fw-semibold text-body-emphasis text-center py-3">Thông tin liên hệ</h2>
-                    <!-- Carousel ảnh khách hàng bên trái -->
-                    <div class="col-md-5 mb-4 mb-md-0 text-center">
-                        <!-- <img src="images/shop.jpg" class="img-fluid rounded shadow" alt="Shop"> -->
-                        <div class="ratio ratio-4x3 mt-3">
-                            <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3834.003181273236!2d108.234567!3d16.080123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314219b7b2e8d8b1%3A0x123456789abcdef!2zMjIgQW4gQ8awIDUsIEFuIEjhuqNpIEJhYywgU8ahbiBUcsOgLCDEkMOgIE5hbmcsIFZpZXRuYW0!5e0!3m2!1svi!2s!4v1722000000000!5m2!1svi!2s"
-                                width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"
-                                referrerpolicy="no-referrer-when-downgrade"></iframe>
-                        </div>
+        <div class="container px-4 my-5">
+            <div class="row justify-content-center align-items-center">
+                <h2 class="fw-semibold text-body-emphasis text-center py-3">Thông tin liên hệ</h2>
+                <!-- Carousel ảnh khách hàng bên trái -->
+                <div class="col-md-5 mb-4 mb-md-0 text-center">
+                    <!-- <img src="images/shop.jpg" class="img-fluid rounded shadow" alt="Shop"> -->
+                    <div class="ratio ratio-4x3 mt-3">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3834.003181273236!2d108.234567!3d16.080123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314219b7b2e8d8b1%3A0x123456789abcdef!2zMjIgQW4gQ8awIDUsIEFuIEjhuqNpIEJhYywgU8ahbiBUcsOgLCDEkMOgIE5hbmcsIFZpZXRuYW0!5e0!3m2!1svi!2s!4v1722000000000!5m2!1svi!2s"
+                            width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
-
-                    <!-- Thông tin liên hệ bên phải -->
-                    <div class="col-md-7">
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">
-                                <strong>Địa chỉ:</strong>
-                                <a href="https://maps.app.goo.gl/kbciByWH5v8ZvSBQ7" target="_blank"
-                                    class="text-decoration-none">
-                                    22 An Cư 5, An Hải Bắc, Sơn Trà, Đà Nẵng
-                                </a>
-                            </li>
-                            <li class="list-group-item">
-                                <strong>Điện thoại 1:</strong> <a href="tel:0787546220"
-                                    class="text-decoration-none">0787
-                                    546 220</a>
-                            </li>
-                            <li class="list-group-item">
-                                <strong>Điện thoại 2:</strong> <a href="tel:0905874978"
-                                    class="text-decoration-none">0905
-                                    874 978</a>
-                            </li>
-                            <li class="list-group-item">
-                                <strong>Zalo:</strong> <a href="https://zalo.me/0787546220" target="_blank"
-                                    class="text-decoration-none">0787 546 220</a>
-                            </li>
-                            <li class="list-group-item">
-                                <strong>Facebook:</strong> <a href="https://www.facebook.com/ChoThueXeMayHungVu"
-                                    target="_blank" class="text-decoration-none">ChoThueXeMayHungVu</a>
-                            </li>
-                        </ul>
-                    </div>
-
                 </div>
-            </div>
 
-            <div class="container px-4">
-                <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top mt-4">
-                    <div class="col-md-6 d-flex align-items-center">
-                        <span class="mb-3 mb-md-0 text-body-secondary">
-                            © 2025 Thuê Xe Máy Anh Vũ - Đà Nẵng | Hotline: <a href="tel:0787546220"
-                                class="text-decoration-none text-body-secondary">0787 546 220</a>
-                        </span>
-                    </div>
-                    <ul class="nav col-md-6 justify-content-end list-unstyled d-flex">
-                        <li class="ms-3">
-                            <a class="text-body-secondary" href="https://www.facebook.com/thinhduy2506" target="_blank"
-                                title="Facebook">
-                                <svg class="bi" width="24" height="24">
-                                    <use xlink:href="#facebook"></use>
-                                </svg>
+                <!-- Thông tin liên hệ bên phải -->
+                <div class="col-md-7">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <strong>Địa chỉ:</strong>
+                            <a href="https://maps.app.goo.gl/kbciByWH5v8ZvSBQ7" target="_blank"
+                                class="text-decoration-none">
+                                22 An Cư 5, An Hải Bắc, Sơn Trà, Đà Nẵng
                             </a>
                         </li>
+                        <li class="list-group-item">
+                            <strong>Điện thoại 1:</strong> <a href="tel:0787546220" class="text-decoration-none">0787
+                                546 220</a>
+                        </li>
+                        <li class="list-group-item">
+                            <strong>Điện thoại 2:</strong> <a href="tel:0905874978" class="text-decoration-none">0905
+                                874 978</a>
+                        </li>
+                        <li class="list-group-item">
+                            <strong>Zalo:</strong> <a href="https://zalo.me/0787546220" target="_blank"
+                                class="text-decoration-none">0787 546 220</a>
+                        </li>
+                        <li class="list-group-item">
+                            <strong>Facebook:</strong> <a href="https://www.facebook.com/ChoThueXeMayHungVu"
+                                target="_blank" class="text-decoration-none">ChoThueXeMayHungVu</a>
+                        </li>
                     </ul>
-                </footer>
-                <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
-                    <symbol id="facebook" viewBox="0 0 16 16">
-                        <path
-                            d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
-                    </symbol>
+                </div>
 
-                    <symbol id="tools" viewBox="0 0 16 16">
-                        <path
-                            d="M1 0L0 1l2.2 3.081a1 1 0 0 0 .815.419h.07a1 1 0 0 1 .708.293l2.675 2.675-2.617 2.654A3.003 3.003 0 0 0 0 13a3 3 0 1 0 5.878-.851l2.654-2.617.968.968-.305.914a1 1 0 0 0 .242 1.023l3.356 3.356a1 1 0 0 0 1.414 0l1.586-1.586a1 1 0 0 0 0-1.414l-3.356-3.356a1 1 0 0 0-1.023-.242L10.5 9.5l-.96-.96 2.68-2.643A3.005 3.005 0 0 0 16 3c0-.269-.035-.53-.102-.777l-2.14 2.141L12 4l-.364-1.757L13.777.102a3 3 0 0 0-3.675 3.68L7.462 6.46 4.793 3.793a1 1 0 0 1-.293-.707v-.071a1 1 0 0 0-.419-.814L1 0zm9.646 10.646a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708zM3 11l.471.242.529.026.287.445.445.287.026.529L5 13l-.242.471-.026.529-.445.287-.287.445-.529.026L3 15l-.471-.242L2 14.732l-.287-.445L1.268 14l-.026-.529L1 13l.242-.471.026-.529.445-.287.287-.445.529-.026L3 11z">
-                        </path>
-                    </symbol>
-                    <symbol id="diagram3" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd"
-                            d="M6 3.5A1.5 1.5 0 0 1 7.5 2h1A1.5 1.5 0 0 1 10 3.5v1A1.5 1.5 0 0 1 8.5 6v1H14a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-1 0V8h-5v.5a.5.5 0 0 1-1 0V8h-5v.5a.5.5 0 0 1-1 0v-1A.5.5 0 0 1 2 7h5.5V6A1.5 1.5 0 0 1 6 4.5zM8.5 5a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5zM0 11.5A1.5 1.5 0 0 1 1.5 10h1A1.5 1.5 0 0 1 4 11.5v1A1.5 1.5 0 0 1 2.5 14h-1A1.5 1.5 0 0 1 0 12.5zm1.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zm4.5.5A1.5 1.5 0 0 1 7.5 10h1a1.5 1.5 0 0 1 1.5 1.5v1A1.5 1.5 0 0 1 8.5 14h-1A1.5 1.5 0 0 1 6 12.5zm1.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zm4.5.5a1.5 1.5 0 0 1 1.5-1.5h1a1.5 1.5 0 0 1 1.5 1.5v1a1.5 1.5 0 0 1-1.5 1.5h-1a1.5 1.5 0 0 1-1.5-1.5zm1.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5z" />
-                    </symbol>
-                    <symbol id="geo-alt" viewBox="0 0 16 16">
-                        <path
-                            d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10" />
-                        <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
-                    </symbol>
-                    <symbol id="headset" viewBox="0 0 16 16">
-                        <path
-                            d="M8 1a5 5 0 0 0-5 5v1h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a6 6 0 1 1 12 0v6a2.5 2.5 0 0 1-2.5 2.5H9.366a1 1 0 0 1-.866.5h-1a1 1 0 1 1 0-2h1a1 1 0 0 1 .866.5H11.5A1.5 1.5 0 0 0 13 12h-1a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h1V6a5 5 0 0 0-5-5" />
-                    </symbol>
-                </svg>
             </div>
+        </div>
+
+        <div class="container px-4">
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top mt-4">
+                <div class="col-md-6 d-flex align-items-center">
+                    <span class="mb-3 mb-md-0 text-body-secondary">
+                        © 2025 Thuê Xe Máy Anh Vũ - Đà Nẵng | Hotline: <a href="tel:0787546220"
+                            class="text-decoration-none text-body-secondary">0787 546 220</a>
+                    </span>
+                </div>
+                <ul class="nav col-md-6 justify-content-end list-unstyled d-flex">
+                    <li class="ms-3">
+                        <a class="text-body-secondary" href="https://www.facebook.com/thinhduy2506" target="_blank"
+                            title="Facebook">
+                            <svg class="bi" width="24" height="24">
+                                <use xlink:href="#facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </footer>
+            <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
+                <symbol id="facebook" viewBox="0 0 16 16">
+                    <path
+                        d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                </symbol>
+
+                <symbol id="tools" viewBox="0 0 16 16">
+                    <path
+                        d="M1 0L0 1l2.2 3.081a1 1 0 0 0 .815.419h.07a1 1 0 0 1 .708.293l2.675 2.675-2.617 2.654A3.003 3.003 0 0 0 0 13a3 3 0 1 0 5.878-.851l2.654-2.617.968.968-.305.914a1 1 0 0 0 .242 1.023l3.356 3.356a1 1 0 0 0 1.414 0l1.586-1.586a1 1 0 0 0 0-1.414l-3.356-3.356a1 1 0 0 0-1.023-.242L10.5 9.5l-.96-.96 2.68-2.643A3.005 3.005 0 0 0 16 3c0-.269-.035-.53-.102-.777l-2.14 2.141L12 4l-.364-1.757L13.777.102a3 3 0 0 0-3.675 3.68L7.462 6.46 4.793 3.793a1 1 0 0 1-.293-.707v-.071a1 1 0 0 0-.419-.814L1 0zm9.646 10.646a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708zM3 11l.471.242.529.026.287.445.445.287.026.529L5 13l-.242.471-.026.529-.445.287-.287.445-.529.026L3 15l-.471-.242L2 14.732l-.287-.445L1.268 14l-.026-.529L1 13l.242-.471.026-.529.445-.287.287-.445.529-.026L3 11z">
+                    </path>
+                </symbol>
+                <symbol id="diagram3" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M6 3.5A1.5 1.5 0 0 1 7.5 2h1A1.5 1.5 0 0 1 10 3.5v1A1.5 1.5 0 0 1 8.5 6v1H14a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-1 0V8h-5v.5a.5.5 0 0 1-1 0V8h-5v.5a.5.5 0 0 1-1 0v-1A.5.5 0 0 1 2 7h5.5V6A1.5 1.5 0 0 1 6 4.5zM8.5 5a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5zM0 11.5A1.5 1.5 0 0 1 1.5 10h1A1.5 1.5 0 0 1 4 11.5v1A1.5 1.5 0 0 1 2.5 14h-1A1.5 1.5 0 0 1 0 12.5zm1.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zm4.5.5A1.5 1.5 0 0 1 7.5 10h1a1.5 1.5 0 0 1 1.5 1.5v1A1.5 1.5 0 0 1 8.5 14h-1A1.5 1.5 0 0 1 6 12.5zm1.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zm4.5.5a1.5 1.5 0 0 1 1.5-1.5h1a1.5 1.5 0 0 1 1.5 1.5v1a1.5 1.5 0 0 1-1.5 1.5h-1a1.5 1.5 0 0 1-1.5-1.5zm1.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5z" />
+                </symbol>
+                <symbol id="geo-alt" viewBox="0 0 16 16">
+                    <path
+                        d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10" />
+                    <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
+                </symbol>
+                <symbol id="headset" viewBox="0 0 16 16">
+                    <path
+                        d="M8 1a5 5 0 0 0-5 5v1h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a6 6 0 1 1 12 0v6a2.5 2.5 0 0 1-2.5 2.5H9.366a1 1 0 0 1-.866.5h-1a1 1 0 1 1 0-2h1a1 1 0 0 1 .866.5H11.5A1.5 1.5 0 0 0 13 12h-1a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h1V6a5 5 0 0 0-5-5" />
+                </symbol>
+            </svg>
+        </div>
+
     </main>
 </body>
 
 <script src="./js/bootstrap.bundle.min.js"></script>
+<script src="./js/custom.js"></script>
 
 </html>
