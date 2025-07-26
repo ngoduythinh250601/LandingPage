@@ -1,0 +1,45 @@
+.floating-buttons {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 9999;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.floating-buttons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    transition: box-shadow 0.2s;
+    font-size: 28px;
+    color: #fff;
+    border: none;
+    outline: none;
+}
+
+.floating-buttons a.phone {
+    background: #28a745;
+}
+
+.floating-buttons a.zalo {
+    background: #0084ff;
+}
+
+.floating-buttons a:hover {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
+    opacity: 0.85;
+    text-decoration: none;
+}
+
+.floating-buttons img {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+}

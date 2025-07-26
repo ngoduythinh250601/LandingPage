@@ -1,1 +1,1 @@
-# Build a Landing Page for the purpose of introducing products.
+# Build a Landing Page for the purpose of selling products.
